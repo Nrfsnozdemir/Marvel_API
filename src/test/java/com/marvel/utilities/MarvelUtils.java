@@ -16,7 +16,7 @@ public class MarvelUtils {
         ts = ConfigurationReader.getProperty("ts");
         apiKey = ConfigurationReader.getProperty("apiKey");
         hash = ConfigurationReader.getProperty("hash");
-        String authentication = "ts=" + ts + "&apikey=" + apiKey + "&hash=" + hash;
+        String authentication = "?ts=" + ts + "&apikey=" + apiKey + "&hash=" + hash;
         return authentication;
     }
 }

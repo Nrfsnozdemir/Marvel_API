@@ -1,11 +1,5 @@
 package com.marvel.utilities;
 
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
-
 public class MarvelUtils {
 
     private static String ts;
